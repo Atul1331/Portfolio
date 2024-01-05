@@ -27,10 +27,10 @@ const Navbar = () => {
     ]
 
   return (
-    <div className='flex justify-between items-center w-full h-[88px] bg-white px-12 md:px-16 shadow-[0px_4px_8px_0px_#00000024]'>
+    <div className='flex justify-between items-center w-full h-[88px] bg-white px-12 lg:px-16 shadow-[0px_4px_8px_0px_#00000024]'>
       <div className='text-2xl font-extrabold z-10'>Sourabh.dev</div>
 
-      <ul className='hidden md:flex gap-8'>
+      <ul className='hidden lg:flex gap-8'>
 
         {links.map(({id,link}) => (
             <li key={id} className='text-xl font-bold cursor-pointer duration-200 hover:text-blue-600 '>{link}</li>
@@ -38,7 +38,7 @@ const Navbar = () => {
       </ul>
 
 
-       <div onClick={() => setNav(!nav)} className='cursor-pointer md:hidden z-10 duration-200 hover:text-blue-600' >
+       <div onClick={() => setNav(!nav)} className='cursor-pointer lg:hidden z-10 duration-200 hover:text-blue-600' >
         {nav ? <FaTimes size={25} /> : <FaBars size={25} />}        
        </div>
 
