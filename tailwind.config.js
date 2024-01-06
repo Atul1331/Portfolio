@@ -7,9 +7,11 @@ module.exports = {
         'profile': "url('./assets/profile.jpg')"
       }
     },
-    // screens: {
-    //   'c': '1024px',
-    // }
+    screens: {
+      'md': '720px',
+      'sm': '580px',
+      'lg': '1024px',
+    }
   },
   plugins: [],
 }
