@@ -9,11 +9,11 @@ const Home = () => {
         
         <div className='w-[450px] sm:w-[550px] text-center lg:text-left'>
             <div className='text-[40px] sm:text-[55px] md:[65px] font-bold  leading-tight  '>Front-End React Developer 👋🏼</div>
-            <p className="px-10 mt-3 text-md md:text-xl font-medium">Hi, I'm Atul Sourav. A passionate Front-end React Developer based in Kolkata, India.</p>
+            <p className=" mt-3 text-md md:text-xl font-medium">Hi, I'm Atul Sourav. A passionate Front-end React Developer based in Kolkata, India.</p>
             <div className='mt-6'>
-                <TbBrandLinkedin  style={{display: 'inline', marginRight:'20px', fontSize:'40px'}} />
-                <TbBrandTwitter style={{display: 'inline', marginRight:'20px', fontSize:'38px'}} />
-                <TbBrandGithub style={{display: 'inline', marginRight:'20px', fontSize:'38px'}}/>
+                <TbBrandLinkedin className='hover:text-blue-600 cursor-pointer duration-300'  style={{display: 'inline', marginRight:'20px', fontSize:'40px'}} />
+                <TbBrandTwitter className='hover:text-blue-600 cursor-pointer duration-300' style={{display: 'inline', marginRight:'20px', fontSize:'38px'}} />
+                <TbBrandGithub className='hover:text-blue-600 cursor-pointer duration-300' style={{display: 'inline', marginRight:'20px', fontSize:'38px'}}/>
             </div>
         </div>
         <div>
