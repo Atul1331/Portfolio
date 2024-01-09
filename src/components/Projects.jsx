@@ -28,7 +28,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div className='bg-gray-100 px-5 md:px-[2rem]  pt-16 pb-16 lg:pt-24'>
+    <div name="Projects" className='bg-gray-100 px-5 md:px-[2rem]  pt-16 pb-16 lg:pt-24'>
         <div className='md:w-[96%] lg:w-[950px]  text-center pbp-1:text-left'>
             <p className='uppercase text-blue-600 font-bold text-lg mb-2'>Portfolio</p>
             <h2 className='text-2xl font-black mb-14'>Each project is a unique piece of development 🧩</h2>
@@ -45,7 +45,7 @@ const Projects = () => {
 
 
 const ProjectCard = ({data}) => {
-    console.log(data)
+    
     return (
         <div className='p-3 xsm:p-4 bg-white rounded-2xl xsm:w-[85%] pbp-1:w-[570px] lg:w-[960px] m-auto lg:flex items-center justify-between mb-16'>
             <img className='rounded-2xl lg:w-[520px] lg:h-[340px]' src={aboutImage} alt="" />

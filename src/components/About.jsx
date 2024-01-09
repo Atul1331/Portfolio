@@ -3,7 +3,7 @@ import aboutImage from '../assets/about.jpg'
 
 const About = () => {
     return (
-        <div className='px-10 py-16 lg:py-28 flex flex-col gap-14 lg:gap-28 lg:flex-row lg:justify-center items-center'>
+        <div name="About" className='px-10 py-16 lg:py-28 flex flex-col gap-14 lg:gap-28 lg:flex-row lg:justify-center items-center'>
             <div>
                 <img className=' w-[28rem] h-[25rem] object-cover rounded-2xl' src={aboutImage} alt="" />
             </div>

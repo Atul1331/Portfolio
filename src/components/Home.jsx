@@ -3,7 +3,7 @@ import { TbBrandLinkedin, TbBrandGithub, TbBrandTwitter } from "react-icons/tb";
 
 const Home = () => {
   return (
-    <div className='bg-gray-100 px-5  md:px-[4rem]  pt-16 pb-32 lg:pt-24'>
+    <div name="Home" className='bg-gray-100 px-5  md:px-[4rem]  pt-[120px] pb-32 lg:pt-[200px]'>
 
       <div className='flex flex-col-reverse gap-20 lg:flex-row lg:justify-center items-center '>
         

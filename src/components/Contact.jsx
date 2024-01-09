@@ -3,7 +3,7 @@ import { TbMapSearch, TbMail } from "react-icons/tb";
 
 const Contact = () => {
   return (
-    <div className=' px-5 md:px-[2rem]  pt-16 pb-32 lg:pt-24'>
+    <div name="Contact" className=' px-5 md:px-[2rem]  pt-16 pb-32 lg:pt-24'>
         <div className=' mx-auto w-fit md:w-[96%] lg:w-[950px]  text-center md:text-left'>
         <p className='uppercase text-blue-600 font-bold text-lg mb-2'>Contact</p>
         <h2 className='text-2xl font-black mb-14'>Don't be shy! Hit me up! 👇</h2>
