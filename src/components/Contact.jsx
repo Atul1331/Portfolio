@@ -19,7 +19,7 @@ const Contact = () => {
                 <button className='w-14 h-14 p-3 rounded-full shadow-[1px_1px_10px_2px_#00000024] '><TbMail style={{color:'blue', fontSize:'28px'}} /></button>
                 <div className='text-lg'>
                     <h3 className='font-bold'>Mail</h3>
-                    <p className='text-gray-600 font-semibold'>atulsourabh083@gmail.com</p>
+                    <p className='text-gray-600 font-semibold'><a href="mailto:atulsourabh083@gmail.com" target='_blank' rel="noreferrer">atulsourabh083@gmail.com</a></p>
                 </div>
             </div>
         </div>

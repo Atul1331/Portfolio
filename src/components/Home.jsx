@@ -7,13 +7,16 @@ const Home = () => {
 
       <div className='flex flex-col-reverse gap-20 lg:flex-row lg:justify-center items-center '>
         
-        <div className='w-[450px] sm:w-[550px] text-center lg:text-left'>
+        <div className='w-[300px] sm:w-[550px] text-center lg:text-left'>
             <div className='text-[40px] sm:text-[55px] md:[65px] font-bold  leading-tight  '>Front-End React Developer 👋🏼</div>
             <p className=" mt-3 text-md md:text-xl font-medium">Hi, I'm Atul Sourav. A passionate Front-end React Developer based in Kolkata, India.</p>
             <div className='mt-6'>
-                <TbBrandLinkedin className='hover:text-blue-600 cursor-pointer duration-300'  style={{display: 'inline', marginRight:'20px', fontSize:'40px'}} />
-                <TbBrandTwitter className='hover:text-blue-600 cursor-pointer duration-300' style={{display: 'inline', marginRight:'20px', fontSize:'38px'}} />
-                <TbBrandGithub className='hover:text-blue-600 cursor-pointer duration-300' style={{display: 'inline', marginRight:'20px', fontSize:'38px'}}/>
+
+                <a href="https://www.linkedin.com/in/atul-sourabh-829744208/" target="_blank" rel="noreferrer"><TbBrandLinkedin className='hover:text-blue-600 cursor-pointer duration-300'  style={{display: 'inline', marginRight:'20px', fontSize:'40px'}} /></a>
+
+                <a href="https://twitter.com/atul27sourabh" target="_blank" rel="noreferrer"><TbBrandTwitter className='hover:text-blue-600 cursor-pointer duration-300' style={{display: 'inline', marginRight:'20px', fontSize:'38px'}} /></a>
+
+                <a href="https://github.com/Atul1331" target="_blank" rel="noreferrer"><TbBrandGithub className='hover:text-blue-600 cursor-pointer duration-300' style={{display: 'inline', marginRight:'20px', fontSize:'38px'}}/></a>
             </div>
         </div>
         <div>
