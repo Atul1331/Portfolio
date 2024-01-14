@@ -1,9 +1,13 @@
 import React from 'react'
 import { TbBrandLinkedin, TbBrandGithub, TbBrandTwitter } from "react-icons/tb";
-import html from '../assets/html.png'
-import js from '../assets/JS.jpg'
-import react from '../assets/react.png'
-import css from '../assets/css.svg'
+import html from '../assets/techstack/HTML.png'
+import css from '../assets/techstack/CSS.png'
+import react from '../assets/techstack/Reactt.png'
+import js from '../assets/techstack/JS.png'
+import tailwind from '../assets/techstack/Tailwind.png'
+import bootstrap from '../assets/techstack/Bootstrap.png'
+import node from '../assets/techstack/Node.png'
+import java from '../assets/techstack/Java.png'
 
 const Home = () => {
   return (
@@ -32,14 +36,14 @@ const Home = () => {
       <div className='pt-[50px] flex flex-col items-center gap-10 lg:gap-14 lg:flex-row lg:w-[1010px] lg:mx-auto mt-6'>
         <div className='text-2xl font-semibold pb-2 lg:pr-3 lg:py-0 border-b-2 border-gray-600 lg:border-r-2 lg:border-b-0'>Tech Stack </div>
         <div className='flex justify-center items-center flex-wrap gap-5 '>
-          <img className='logo' src={html} alt="" />
-          <img className='logo' src={html} alt="" />
-          <img className='logo' src={js} alt="" />
-          <img className='logo' src={react} alt="" />
-          <img className='logo' src={css} alt="" />
-          <img className='logo' src={html} alt="" />
-          <img className='logo' src={html} alt="" />
-          <img className='logo' src={html} alt="" />
+          <img className='logo rounded-lg' src={html} alt="" />
+          <img className='logo rounded-lg' src={css} alt="" />
+          <img className='logo rounded-lg' src={js} alt="" />
+          <img className='logo rounded-lg' src={react} alt="" />
+          <img className='logo rounded-lg' src={node} alt="" />
+          <img className='logo rounded-lg' src={java} alt="" />
+          <img className='logo rounded-lg' src={tailwind} alt="" />
+          <img className='logo rounded-lg' src={bootstrap} alt="" />
         </div>
       </div>
 
