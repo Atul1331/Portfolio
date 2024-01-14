@@ -48,3 +48,18 @@
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(255, 255, 255, 0.3);
 }
+
+
+.logo{
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  display: inline;
+  border-radius: 10px;
+  transition: all 200ms;
+}
+
+.logo:hover{
+  margin-top: -20px;
+}

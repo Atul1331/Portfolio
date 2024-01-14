@@ -1,26 +1,39 @@
 import React from 'react'
-import aboutImage from '../assets/about.jpg'
 import { TbBrandGithub } from "react-icons/tb";
 import { HiOutlineExternalLink } from "react-icons/hi";
+import dictionary from '../assets/dictionary.png'
+import tic_tac_toe from '../assets/tic-tac-toe.png'
+import shoe_store from '../assets/shoestore.png'
 
 
 
 const projectData = [
     {
         key: 1,
-        img : aboutImage,
-        title : 'Car Rental 🚗',
-        description: 'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.', 
-        t1 : 'React',
-        t2 : 'Tailwind CSS'
+        img: dictionary,
+        title : 'Vocab 📖',
+        description: 'Vocab is an online dictionary where users can search any word and get its meaning along with the audio pronounciation of the word. The website provides an interface to change theme and font type. ', 
+        techstack : ['React', 'Taiwind CSS'],
+        github: 'https://github.com/Atul1331/vocab',
+        link: 'https://lookitout.netlify.app/',
     },
     {
         key: 2,
-        img : aboutImage,
-        title : 'Coindom 🚗',
-        description: 'Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.', 
-        t1 : 'React',
-        t2 : 'Tailwind CSS'
+        img: shoe_store,
+        title : 'Sneakers 👟',
+        description: 'Sneakers is an interactive shoe store web app where users can see various shoes in different colors and sizes as per their choice.  ', 
+        techstack : ['HTML', 'CSS', 'Vanilla JS'],
+        github: 'https://github.com/Atul1331/Shoe-Store',
+        link: 'https://atul1331.github.io/Shoe-Store/',
+    },
+    {
+        key: 3,
+        img: tic_tac_toe,
+        title : 'Tic Tac Toe ⭕',
+        description: 'Tic Tac Toe is a web app game based on the traditional Tic Tac Toe rules where two players can play at a time. ', 
+        techstack : ['HTML', 'CSS', 'Vanilla JS'],
+        github: 'https://github.com/Atul1331/Tic-Tac-Toe',
+        link: 'https://atul1331.github.io/Tic-Tac-Toe/',
     }
 ]
 
@@ -45,20 +58,26 @@ const Projects = () => {
 
 
 const ProjectCard = ({data}) => {
+
     
     return (
-        <div className='p-3 xsm:p-4 bg-white rounded-2xl xsm:w-[85%] pbp-1:w-[570px] lg:w-[960px] m-auto lg:flex items-center justify-between mb-16'>
-            <img className='rounded-2xl lg:w-[520px] lg:h-[340px]' src={aboutImage} alt="" />
-            <div className='w-[320px] mx-auto text-center lg:pr-4'>
+        <div className='p-3 xsm:p-4 bg-white rounded-2xl xsm:w-[85%] pbp-1:w-[570px] lg:w-[1000px] m-auto lg:flex items-center justify-between mb-16'>
+            <img className='rounded-2xl h-[340px] w-full lg:w-[550px] lg:h-[340px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] object-cover object-top hover:object-bottom  duration-[5s]' src={data.img} alt="" />
+            
+            <div className='w-[320px] mx-auto text-center lg:pr-2'>
                 <h3 className='uppercase text-lg font-bold mb-2 mt-8 lg:mt-0 '>{data.title}</h3>
                     <p className='text-[18px] text-gray-600 font-semibold mb-5'>{data.description}</p>
                     <div className='flex justify-center items-center gap-6 text-md font-bold mb-6'>
-                        <button className='px-3 py-2 shadow-[0px_0px_8px_2px_#00000024] rounded-md'>{data.t1}</button>
-                        <button className='px-3 py-2 shadow-[0px_0px_8px_2px_#00000024] rounded-md'>{data.t2}</button>
+                        {data.techstack.map((tech) => (
+                            <button className='px-3 py-2 shadow-[0px_0px_8px_2px_#00000024] rounded-md'>{tech}</button>
+                        ))}
+
                     </div>
+
                     <div className='flex justify-center items-center gap-16 text-lg'>
-                        <div className='font-semibold flex items-center'>Code <TbBrandGithub style={{display: 'inline', fontSize:'26px', marginLeft:'5px'}} /> </div>
-                        <div className='font-semibold flex items-center'>Live Demo <HiOutlineExternalLink style={{display: 'inline', fontSize:'26px', marginLeft:'5px'}} /> </div>
+                        <a href={data.github} target="_blank" rel="noreferrer"><div className='font-semibold flex items-center hover:text-blue-600 duration-300'>Code <TbBrandGithub style={{display: 'inline', fontSize:'26px', marginLeft:'5px'}} /> </div></a>
+                        <a href={data.link} target="_blank" rel="noreferrer"><div className='font-semibold flex items-center hover:text-blue-600 duration-300'>Live Demo <HiOutlineExternalLink style={{display: 'inline', fontSize:'26px', marginLeft:'5px'}} /> </div></a>
+                        
                     </div>
             </div>
         </div>

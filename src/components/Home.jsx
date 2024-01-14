@@ -1,11 +1,15 @@
 import React from 'react'
 import { TbBrandLinkedin, TbBrandGithub, TbBrandTwitter } from "react-icons/tb";
+import html from '../assets/html.png'
+import js from '../assets/JS.jpg'
+import react from '../assets/react.png'
+import css from '../assets/css.svg'
 
 const Home = () => {
   return (
-    <div name="Home" className='bg-gray-100 px-5  md:px-[4rem]  pt-[120px] pb-32 lg:pt-[200px]'>
+    <div name="Home" className='bg-gray-100 px-5  md:px-[4rem]  pt-[120px] pb-16  lg:pt-[200px]'>
 
-      <div className='flex flex-col-reverse gap-20 lg:flex-row lg:justify-center items-center '>
+      <div className='mb-28 flex flex-col-reverse gap-20 lg:flex-row lg:justify-center items-center '>
         
         <div className='w-[300px] sm:w-[550px] text-center lg:text-left'>
             <div className='text-[40px] sm:text-[55px] md:[65px] font-bold  leading-tight  '>Front-End React Developer 👋🏼</div>
@@ -25,7 +29,19 @@ const Home = () => {
         
       </div>
 
-      <div></div>
+      <div className='pt-[50px] flex flex-col items-center gap-10 lg:gap-14 lg:flex-row lg:w-[1010px] lg:mx-auto mt-6'>
+        <div className='text-2xl font-semibold pb-2 lg:pr-3 lg:py-0 border-b-2 border-gray-600 lg:border-r-2 lg:border-b-0'>Tech Stack </div>
+        <div className='flex justify-center items-center flex-wrap gap-5 '>
+          <img className='logo' src={html} alt="" />
+          <img className='logo' src={html} alt="" />
+          <img className='logo' src={js} alt="" />
+          <img className='logo' src={react} alt="" />
+          <img className='logo' src={css} alt="" />
+          <img className='logo' src={html} alt="" />
+          <img className='logo' src={html} alt="" />
+          <img className='logo' src={html} alt="" />
+        </div>
+      </div>
 
     </div>
   )
