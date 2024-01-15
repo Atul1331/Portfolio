@@ -10,8 +10,8 @@ const About = () => {
 
             <div className='max-w-[500px] text-center lg:text-left'>
                 <p className='uppercase text-blue-600 font-bold text-xl mb-3 '>About me</p>
-                <h2 className='text-3xl font-black mb-5'>A dedicated Front-end Developer based in Kolkata, India</h2>
-                <p className=' text-lg text-gray-600 font-semibold'>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
+                <h2 className='text-3xl font-black mb-5'>Front-end developer based in Kolkata, India 📍</h2>
+                <p className=' text-lg text-gray-600 font-semibold'>Hey there! I'm Atul, a developer based in India.  I'm deeply passionate about leveraging my coding skills to create pixel-perfect websites. My current tech stacks for front-end development are React JS and Tailwind CSS. Apart from this, I code in JAVA. Currently, I am learning about UI/UX and making projects. The next few things on my checklist are Next js and Typescript. I am eager to work on projects that would help me showcase my full potential and strengths.  I really look forward to growing and nourishing my skills as a developer and excited to bring my skills to any opportunity that comes my way. </p>
             </div>
         </div>
     )

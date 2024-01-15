@@ -17,7 +17,7 @@ const Home = () => {
         
         <div className='w-[300px] sm:w-[550px] text-center lg:text-left'>
             <div className='text-[40px] sm:text-[55px] md:[65px] font-bold  leading-tight  '>Front-End React Developer 👋🏼</div>
-            <p className=" mt-3 text-md md:text-xl font-medium">Hi, I'm Atul Sourabh. A passionate Front-end React Developer based in Kolkata, India.</p>
+            <p className=" mt-3 text-md md:text-xl font-medium">Hey, it's Atul Sourabh. I'm a front end developer  who loves to tinker around with code.</p>
             <div className='mt-6'>
 
                 <a href="https://www.linkedin.com/in/atul-sourabh-829744208/" target="_blank" rel="noreferrer"><TbBrandLinkedin className='hover:text-blue-600 cursor-pointer duration-300'  style={{display: 'inline', marginRight:'20px', fontSize:'40px'}} /></a>
