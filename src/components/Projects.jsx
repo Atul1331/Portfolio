@@ -11,7 +11,7 @@ const projectData = [
     {
         key: 1,
         img: movikx,
-        title : 'Movikx',
+        title : 'Movikx 🎬',
         description: 'Movikx is a web app to search and get info about movies and tv-shows. You can see the latest, trending and popular movies and tv-shows as well as recommended movies and tv-shows based on some show.  ', 
         techstack : ['React', 'SCSS', 'Redux'],
         github: 'https://github.com/Atul1331/movix',
