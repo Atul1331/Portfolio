@@ -2,14 +2,23 @@ import React from 'react'
 import { TbBrandGithub } from "react-icons/tb";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import dictionary from '../assets/dictionary.png'
-import tic_tac_toe from '../assets/tic-tac-toe.png'
 import shoe_store from '../assets/shoestore.png'
+import movikx from '../assets/Movikx.jpeg'
 
 
 
 const projectData = [
     {
         key: 1,
+        img: movikx,
+        title : 'Movikx',
+        description: 'Movikx is a web app to search and get info about movies and tv-shows. You can see the latest, trending and popular movies and tv-shows as well as recommended movies and tv-shows based on some show.  ', 
+        techstack : ['React', 'SCSS', 'Redux'],
+        github: 'https://github.com/Atul1331/movix',
+        link: 'https://movikx.netlify.app/',
+    },
+    {
+        key: 2,
         img: dictionary,
         title : 'Vocab 📖',
         description: 'Vocab is an online dictionary where users can search any word and get its meaning along with the audio pronounciation of the word. The website provides an interface to change theme and font type. ', 
@@ -18,7 +27,7 @@ const projectData = [
         link: 'https://lookitout.netlify.app/',
     },
     {
-        key: 2,
+        key: 3,
         img: shoe_store,
         title : 'Sneakers 👟',
         description: 'Sneakers is an interactive shoe store web app where users can see various shoes in different colors and sizes as per their choice.  ', 
@@ -26,15 +35,8 @@ const projectData = [
         github: 'https://github.com/Atul1331/Shoe-Store',
         link: 'https://atul1331.github.io/Shoe-Store/',
     },
-    {
-        key: 3,
-        img: tic_tac_toe,
-        title : 'Tic Tac Toe ⭕',
-        description: 'Tic Tac Toe is a web app game based on the traditional Tic Tac Toe rules where two players can play at a time. ', 
-        techstack : ['HTML', 'CSS', 'Vanilla JS'],
-        github: 'https://github.com/Atul1331/Tic-Tac-Toe',
-        link: 'https://atul1331.github.io/Tic-Tac-Toe/',
-    }
+    
+    
 ]
 
 
