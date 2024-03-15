@@ -44,7 +44,7 @@ const projectData = [
 const Projects = () => {
   return (
     <div name="Projects" className='bg-gray-100 px-5 md:px-[2rem]  pt-16 pb-16 lg:pt-24'>
-        <div className='mx-auto w-fit text-center '>
+        <div className='mx-auto lg:w-[100%] max-w-[1024px] w-fit text-center sm:text-start'>
             <p className='uppercase text-blue-600 font-bold text-lg mb-2'>Portfolio</p>
             <h2 className='text-2xl font-black mb-14'>Each project is a unique piece of development 🧩</h2>
         </div>
