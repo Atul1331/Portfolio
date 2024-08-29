@@ -11,11 +11,11 @@ import java from '../assets/techstack/Java.png'
 
 const Home = () => {
   return (
-    <div name="Home" className='bg-gray-100 px-5  md:px-[4rem]  pt-[120px] pb-16  lg:pt-[200px]'>
+    <div name="Home" className='bg-gray-100 dark:bg-gray-900 px-5  md:px-[4rem]  pt-[120px] pb-16  lg:pt-[200px]'>
 
       <div className='mb-28 flex flex-col-reverse gap-20 lg:flex-row lg:justify-center items-center '>
         
-        <div className='w-[300px] sm:w-[550px] text-center lg:text-left'>
+        <div className='w-[300px] sm:w-[550px] text-center lg:text-left dark:text-white'>
             <div className='text-[40px] sm:text-[55px] md:[65px] font-bold  leading-tight  '>Front-End React Developer 👋🏼</div>
             <p className=" mt-3 text-md md:text-xl font-medium">Hey, it's Atul Sourabh. I'm a front end developer  who loves to tinker around with code.</p>
             <div className='mt-6'>
@@ -28,13 +28,13 @@ const Home = () => {
             </div>
         </div>
         <div>
-            <div className="blob bg-profile w-[14rem] h-[18rem] md:w-[16rem] lg:h-[22rem] lg:w-[22rem] xl-h-[25rem] xl:w-[25rem] bg-cover bg-center border-4 border-black shadow-[0px_5px_10px_5px_#a0aec0] "></div>
+            <div className="blob bg-profile w-[14rem] h-[18rem] md:w-[16rem] lg:h-[22rem] lg:w-[22rem] xl-h-[25rem] xl:w-[25rem] bg-cover bg-center border-4 border-black dark:border-gray-700 shadow-[0px_5px_10px_5px_#a0aec0] dark:shadow-[0px_5px_10px_5px_#00000] "></div>
         </div>
         
       </div>
 
       <div className='pt-[50px] flex flex-col items-center gap-10 lg:gap-14 lg:flex-row lg:w-[1010px] lg:mx-auto mt-6'>
-        <div className='text-2xl font-semibold pb-2 lg:pr-3 lg:py-0 border-b-2 border-gray-600 lg:border-r-2 lg:border-b-0'>Tech Stack </div>
+        <div className='text-2xl dark:text-white font-semibold pb-2 lg:pr-3 lg:py-0 border-b-2 border-gray-600 dark:border-gray-400 lg:border-r-2 lg:border-b-0'>Tech Stack </div>
         <div className='flex justify-center items-center flex-wrap gap-5 '>
           <img className='logo rounded-lg' src={html} alt="" />
           <img className='logo rounded-lg' src={css} alt="" />

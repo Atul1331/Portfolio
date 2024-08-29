@@ -10,7 +10,9 @@
   }
 }
 
-
+*{
+  @apply transition-colors duration-200
+}
 
 .blob{
   animation: animate 5s ease-in-out infinite;
@@ -63,3 +65,4 @@
 .logo:hover{
   margin-top: -20px;
 }
+
