@@ -64,7 +64,7 @@ const ProjectCard = ({data}) => {
     
     return (
         <div className='p-3 xsm:p-4 bg-white dark:bg-gray-800 rounded-2xl xsm:w-[85%] pbp-1:w-[570px] lg:w-[1000px] m-auto lg:flex items-center justify-between mb-16'>
-            <img className='rounded-2xl h-[340px] w-full lg:w-[550px] lg:h-[340px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] dark:shadow-[0_3px_10px_rgb(0,0,0)] object-cover object-top hover:object-bottom  duration-[5s]' src={data.img} alt="" />
+            <img className='rounded-2xl h-[340px] w-full lg:w-[550px] lg:h-[340px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] dark:shadow-[0_3px_10px_rgb(0,0,0)] object-cover object-top img-duration' src={data.img} alt="" />
             
             <div className='w-[320px] mx-auto text-center lg:pr-2'>
                 <h3 className='uppercase text-lg font-bold dark:text-white mb-2 mt-8 lg:mt-0 '>{data.title}</h3>
